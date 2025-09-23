@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta name="description" content="The highest performing VPN where your privacy is our priority.">
+    <title>Main</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="spacing" style="padding-top: 75px;">
+        <header>
+            <nav>
+                <button class="menubtn" id="menubtn" onclick="hideShowMenu()" title="Menu"
+                    aria-label="Menu Toggle" aria-expanded="false">&#9776;</button>
+                <div><img src="icon.webp" class="logo" alt="CairoVPN Logo"></div>
+                <div class="navbtns desktopnav" id="desktopnav">
+                    <a href="/">Home</a>
+                    <a href="#plans">Plans</a>
+                    <a href="#get-support">Get Support</a>
+                    <a href="Terms.html">Terms & Conditions</a>
+                    <a href="Policy.html">Privacy Policy</a>
+                </div>
+                <div class="button-div">
+                    <button class="mainbtn" title="Get Chrome Extension">Get Extension</button>
+                </div>
+            </nav>
+            <div class="mobilenav" id="mobilenav">
+                <a href="/" id="navbtn">Home</a>
+                <a href="#plans" id="navbtn">Plans</a>
+                <a href="#get-support" id="navbtn">Get Support</a>
+                <a href="Terms.html" id="navbtn">Terms & Conditions</a>
+                <a href="Policy.html" id="navbtn">Privacy Policy</a>
+            </div>
+            <div class="hero-section">
+                <div><img src="logo-white.webp" width="200"></div>
+                <h1 class="hero-intro">The highest performing VPN where your privacy is our priority.</h1>
+                <div class="button-div">
+                    <button class="mainbtn">Let's Establish</button>
+                    <button class="altbtn">I already have a subscription.</button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <br><br>
+            <section>
+                <div class="wrapper">
+                    <div class="notice">
+                        <p>CairoVPN was selected as 2020's award-winning VPN, and the first VPN to be developed in
+                            Egypt.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="cards" id="features">
+                <div class="card">
+                    <img src="router-white.webp" alt="Secure Encrpytion">
+                    <h1>Encrypts Your Digital Identity</h1>
+                    <div class="wrap-ellipsis">
+                        <p>CairoVPN filters and hides your IP information to reduce potential cyberthreats.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="speed-white.webp" alt="Fast Connection">
+                    <h1>Fast Connection</h1>
+                    <div class="wrap-ellipsis">
+                        <p>Automatically selects the fastest server available for you, but you may still select the
+                            server
+                            explicitly.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="earth-white.webp" alt="Worldwide Connection">
+                    <h1>Up to +45 available servers*</h1>
+                    <div class="wrap-ellipsis">
+                        <p>Get access to various options when selecting a country.</p>
+                        <p>*Selectable servers depend on your plan.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="live-alerts" id="live-alerts">
+                <div class="first">
+                    <h1>Alerts for Shutdowns</h1>
+                    <p>Get alerts when it's the apporpiate time to change to the fastest.</p>
+                    <br>
+                    <button class="altbtn">Learn More</button>
+                </div>
+                <div class="second">
+                    <div class="notify">
+                        <img src="warning.webp" alt="Warning Icon">
+                        <h1>Server 'El Mohandeseen, Egypt' Shuts Down Soon</h1>
+                        <p>CairoVPN will automatically change currently selected server shortly.</p>
+                        <p class="ipo">For illustration purposes only, refer to the actual product.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="plans" id="plans">
+                <h1>Choose The Suitable Plan For Your Needs</h1>
+                <p>Terms & Conditions Apply</p>
+                <div>
+                    <div class="card price-container">
+                        <p class="price"><span>$</span>0</p>
+                        <h1>Free</h1>
+                        <p>The free plan that includes:</p>
+                        <br>
+                        <ul>
+                            <li>Access To 5 Countries</li>
+                            <li>Limited VPN Usage Period</li>
+                            <li>Standard Speed</li>
+                        </ul>
+                    </div>
+                    <div class="card special price-container">
+                        <p class="price before"><span>$</span>17.99</p>
+                        <p class="price"><span>$</span>7.99</p>
+                        <h1>Plus</h1>
+                        <p>Plus allows more flexiblity and includes:</p>
+                        <br>
+                        <ul>
+                            <li>Access To 19 Countries</li>
+                            <li>Significantly <strong>Extended</strong> VPN Usage Period</li>
+                            <li><strong>Faster</strong> Speed</li>
+                        </ul>
+                    </div>
+                    <div class="card price-container">
+                        <p class="price"><span>$</span>24.99</p>
+                        <h1>Pro & Enterprise</h1>
+                        <p>The ultimate plan dedicated for professionalists:</p>
+                        <br>
+                        <ul>
+                            <li>Access To 45 Countries</li>
+                            <li><strong>Unlimited</strong> VPN Usage Period</li>
+                            <li>Fastest Speed</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="get-extension">
+                <div class="first">
+                    <h1>Browser Extension</h1>
+                    <div class="box">
+                        <h1 class="hero-intro">Get The Browser Extension</h1>
+                    </div>
+                    <button class="mainbtn">Download</button>
+                </div>
+                <div class="second">
+                    <img src="end.webp" class="end" alt="">
+                </div>
+            </section>
+        </main>
+        <footer>
+            <img src="logo-white.webp" class="footer-logo" alt="CairoVPN Logo">
+            <div class="contact">
+                <a href="facebook.com" aria-label="Follow us on Facebook." title="Follow us on Facebook.">
+                    <img src="facebook.webp" alt="Facebook Icon">
+                </a>
+                <a href="instagram.com" aria-label="Follow us on Instagram." title="Follow us on Instagram.">
+                    <img src="instagram.webp" alt="Instagram Icon">
+                </a>
+                <a href="youtube.com" aria-label="Subscribe to us on YouTube." title="Subscribe to us on YouTube.">
+                    <img src="youtube.webp" alt="YouTube Icon">
+                </a>
+                <a href="mailto:mazenofficial12@gmail.com" aria-label="Contact us by email.">
+                    <img src="mail.webp" alt="Email Icon">
+                </a>
+            </div>
+            <p>Copyright © CairoVPN Corporation</p>
+            <br>
+            <p aria-label="Our Location">
+                CairoVPN Corporation International
+                <br>
+                113 Nile Street, Maadi, Cairo, Egypt
+                <br>
+                Postal Code: 11431
+            </p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

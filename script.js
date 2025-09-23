@@ -1,0 +1,1 @@
+const menu = document.querySelector(".mobilenav");const navbtn=document.getElementById("navbtn");function hideShowMenu(){menu.classList.toggle("toggled");}
